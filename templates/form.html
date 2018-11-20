@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Students Record</h2>
+
+<form action = "http://localhost:5000/form" method = "POST">
+  Name:<br>
+  <input type="text" name="Name" value="Sonam">
+  <br>
+  Age:<br>
+  <input type="number" name="Age" value="22" min="1" max="120">
+  <br>
+  Gender:<br>
+  <!--<input type="text" name="Gender" value="female">--->
+  <input type="radio" name="gender" value="male"> Male<br>
+  <input type="radio" name="gender" value="female" checked> Female<br>
+  <input type="radio" name="gender" value="other"> Other<br><br>
+  <br>
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
